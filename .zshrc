@@ -3,7 +3,7 @@
  export PATH
 
  # Java installation directory
- export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_121
+ export JAVA_HOME=/usr/lib/jvm/java-1.8.0
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/sebastien/.oh-my-zsh
