@@ -15,6 +15,8 @@ autocmd InsertLeave * :set relativenumber
 
 "associate .jr files with java filetype"
 au BufRead,BufNewFile *.jr setfiletype java
+"associate .jr files with java filetype"
+au BufRead,BufNewFile *.py setfiletype python3
 
 "Syntastic configuration"
 set statusline+=%#warningmsg#

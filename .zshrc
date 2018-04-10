@@ -1,9 +1,11 @@
 # If you come from bash you might have to change your $PATH.
- PATH=$HOME/bin:/usr/local/bin:$PATH
+ PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
  export PATH
 
  # Java installation directory
  export JAVA_HOME=/usr/lib/jvm/java-1.8.0
+ # Default python instal for virtualenv
+ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/sebastien/.oh-my-zsh
