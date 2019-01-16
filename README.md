@@ -1,2 +1,2 @@
 # dotfiles
-configuration files of programs like vim or zsh
+configuration files for programs like vim and zsh
