@@ -1,8 +1,8 @@
-execute pathogen#infect()
+" execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme evening
+colorscheme darkblue
 set expandtab
 set shiftwidth=4
 set autoindent
@@ -27,3 +27,10 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" Tab = escape
+inoremap <Tab> <Esc>
+
+" launch shell cmds in interactive mode (puts vim in bg)
+set shellcmdflag=-ic
+
