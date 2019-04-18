@@ -106,7 +106,13 @@ source $HOME/.zsh_vars
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias fuse_disk2s2="sudo ntfs-3g /dev/disk2s2 /Volumes/NTFS -olocal -oallow_other"
+eval $(thefuck --alias)
 
 function ggl() {
-    open -a Firefox 'http://www.google.com/search?q='$1
+    open -a Firefox 'https://www.google.com/search?q='$1
 }
+eval "$(pyenv init -)"
+
+# Setting for the new UTF-8 terminal support in Lion
+LC_TYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
